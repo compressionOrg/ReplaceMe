@@ -19,6 +19,7 @@ nvcr.io#nvidia/pytorch:23.10-py3
 git clone https://github.com/mts-ai/ReplaceMe.git
 cd patchme
 pip install -e .
+ip install torch==2.5.1 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 ```
 ### Basic Usage
 ```bash
